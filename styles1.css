@@ -1,0 +1,117 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+}
+
+header .logo {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+header .logo img {
+    width: 100%;
+    height: auto;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #050101;
+}
+h4 {
+    text-align: center;
+    margin: 20px 0;
+    color: #050101;
+}
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  }
+  
+  label {
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    align-items: center;
+  }
+  
+  .star-rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+  }
+  
+  .star-rating span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+  }
+  
+  .star-rating span:hover:before,
+  .star-rating span:hover ~ span:before,
+  .star-rating span.hover:before,
+  .star-rating span.hover ~ span:before {
+    content: '★';
+    position: absolute;
+    left: 0;
+    color: #fde16d;
+  }
+  
+  .star-rating span:before {
+    content: '★';
+    position: absolute;
+    left: 0;
+    color: #a0a5a7;
+  }
+  
+  .star-rating span.active:before,
+  .star-rating span.active ~ span:before {
+    color: #fde16d;
+  }
